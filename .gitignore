@@ -1,0 +1,21 @@
+# Linux backup files
+*~
+
+# Windows thumbnails
+Thumbs.db
+
+# Netbeans
+nbproject/
+catalog.xml
+nbactions.xml
+
+# Eclipse
+.settings/
+.buildpath
+.classpath
+.project
+
+# WoltLab Community Framework
+*.diff
+*.tar
+*.tar.gz

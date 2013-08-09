@@ -1,0 +1,20 @@
+ com.phrozenbyte.wcf.user.blog.realBlog (1.0.2); urgency=low
+
+  * package.xml: <plugin> fixed
+
+ -- Daniel Rudolf <drudolf@phrozenbyte.de>  Sun, 27 Mar 2011 13:56:47 +0100
+
+
+ com.phrozenbyte.wcf.user.blog.realBlog (1.0.1); urgency=low
+
+  * Template 'userBlogEntry': blog article title (mainHeadline) now editable
+  * Template 'userBlogEntry': rating now as expected by com.woltlab.wcf.rating
+
+ -- Daniel Rudolf <drudolf@phrozenbyte.de>  Fri, 18 Mar 2011 22:13:07 +0100
+
+
+com.phrozenbyte.wcf.user.blog.realBlog (1.0.0); urgency=low
+
+  * Initial release
+
+ -- Daniel Rudolf <drudolf@phrozenbyte.de>  Fri, 18 Mar 2011 20:47:19 +0100

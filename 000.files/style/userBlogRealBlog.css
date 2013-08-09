@@ -1,0 +1,37 @@
+
+/* ### -- -- -- -- -- Community Blog Styles -- -- -- -- -- ### */
+/* ### -- -- -- -- -- user blog as real blog -- -- -- -- -- ### */
+
+/*
+
+File: userBlogRealBlog.css
+Copyright 2011 by Daniel Rudolf
+License: GNU General Public License 3 or later
+
+*/
+
+/* ### -- -- -- -- -- Entry -- -- -- -- -- ### */
+
+.blog .blogArticle .contentHeader .messageNumber {
+	margin: 0 0 0 3px;
+}
+
+/* ### -- -- -- -- -- User card in sidebar -- -- -- -- -- ### */
+
+.blog .userCardSidebar .userCardSidebarInner {
+	text-align: center;
+}
+
+.blog .userCardSidebar .userSymbols ul {
+	list-style: none outside none;
+	margin: 0;
+	padding: 2px 0pt;
+}
+
+.blog .userCardSidebar .userSymbols ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+/* ### -- -- -- -- -- EOF -- -- -- -- -- ### */

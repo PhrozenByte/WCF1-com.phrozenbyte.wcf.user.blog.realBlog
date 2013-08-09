@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+
+<!--
+	WoltLab Community Blog - Real Blog Modification
+	Copyright (C) 2011  Daniel Rudolf <drudolf@phrozenbyte.de>
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<package name="com.phrozenbyte.wcf.user.blog.realBlog">
+	<packageinformation>
+		<packagename>WoltLab Community Blog - Real Blog Modification</packagename>
+		<packagedescription>Modifys WoltLab Community Blog to look like a "real", non-user-specific blog software.</packagedescription>
+		<packagedescription language="de">Wandelt den WoltLab Community Blog in einen normalen, nicht stark benutzerorientierten Blog um.</packagedescription>
+		<version>1.0.2</version>
+		<date>2011-03-27</date>
+		<packageurl>http://www.phrozenbyte.de/</packageurl>
+		<plugin>com.woltlab.wcf.page.user.profile</plugin>
+		<standalone>0</standalone>
+		<isunique>1</isunique>
+	</packageinformation>
+
+	<authorinformation>
+		<author>Daniel Rudolf</author>
+		<authorurl>http://www.phrozenbyte.de/</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredPackage minversion="1.1.0">com.woltlab.wcf.user.blog</requiredPackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<files><![CDATA[files.tar]]></files>
+		
+		<templates><![CDATA[templates/wcf.tar]]></templates>
+		<templatepatch><![CDATA[templates/wcf.diff]]></templatepatch>
+
+		<eventlistener><![CDATA[pips/eventListener.xml]]></eventlistener>
+
+		<languages languagecode="de"><![CDATA[languages/de.xml]]></languages>
+		<languages languagecode="de-informal"><![CDATA[languages/de-informal.xml]]></languages>
+		<languages languagecode="en"><![CDATA[languages/en.xml]]></languages>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.0">
+		<templatepatch><![CDATA[templates/wcf.1-0-0-to-1-0-1.diff]]></templatepatch>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.1"/>
+</package>
